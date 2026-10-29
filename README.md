@@ -64,5 +64,129 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Credoai is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/credoai
+Credo AI provides an AI governance platform that helps enterprises responsibly develop, adopt, procure, and use artificial intelligence at scale. The solution automates oversight, risk management, and compliance with emerging regulations such as the EU AI Act, NIST, and ISO standards, while keeping human control over AI systems. Founded in 2020 and based in Palo Alto, CA, Credo AI is recognized by CB Insights, the World Economic Forum, and Fast Company for its innovative approach to trustworthy AI.
+
+**Areas:** Company · Artificial Intelligence · Governance · Software-as-a-Service · Palo Alto
+
+## Credoai on APIs.io
+
+Everything profiled for Credoai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/credoai/](https://apis.io/providers/credoai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (2)
+
+- [Credoai Audit Logs API](https://apis.io/apis/credoai/credoai-audit-logs-api/) — The Audit Logs API from Credoai — 4 operation(s) for audit logs.
+- [Credoai Shadow AI API](https://apis.io/apis/credoai/credoai-shadow-ai-api/) — The Shadow AI API from Credoai — 6 operation(s) for shadow ai.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Credoai Agentic Access](https://apis.io/agentic-access/credoai/credoai-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AIEventBulkCreateRequest](https://apis.io/schemas/credoai/credoai-aievent-bulk-create-request/)
+- [AIEventCreateRequest](https://apis.io/schemas/credoai/credoai-aievent-create-request/)
+- [AIEventResponse](https://apis.io/schemas/credoai/credoai-aievent-response/)
+- [AIEventsResponse](https://apis.io/schemas/credoai/credoai-aievents-response/)
+- [Audit Log Response](https://apis.io/schemas/credoai/credoai-audit-log-response/)
+- [Audit Logs Response](https://apis.io/schemas/credoai/credoai-audit-logs-response/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Credoai Context](https://apis.io/jsonld/credoai/credoai-context/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Credoai Openapi Overlay](https://apis.io/overlays/credoai/credoai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Credoai API Rules](https://apis.io/rules/credoai/credoai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Credoai Authentication](https://apis.io/security/credoai/credoai-authentication/)
+- [Credoai Domain Security](https://apis.io/security/credoai/credoai-domain-security/)
+- [Credoai Trust Center](https://apis.io/security/credoai/credoai-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.credo.ai)
+- [Documentation](https://docs.sdk.credo.ai/)
+- [Getting started](https://sdk.credo.ai/getting-started/authentication)
+- [Blog](https://www.credo.ai/blog/write-extend-export)
+- [Compliance](https://trust.credo.ai/)
+- [Terms of service](https://www.credo.ai/legal/terms-conditions)
+- [Privacy policy](https://www.credo.ai/glossary/privacy)
+
+## API Evangelist rating
+
+**Kin Score 41.8** — developing · rubric 0.25.0 · scored 2026-10-23
+
+| Facet | Score |
+|---|---|
+| Discoverability | 76.8 |
+| Contract quality | 62.1 |
+| Contract governance | 22.0 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 37.5 |
+| Access clarity | 36.8 |
+
+**Agent readiness 36.6** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | derived (partial credit) |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | derived (partial credit) |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 27.3** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/credoai/](https://apis.io/providers/credoai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Credoai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/credoai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
